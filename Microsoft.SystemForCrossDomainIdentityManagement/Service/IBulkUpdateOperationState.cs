@@ -5,7 +5,6 @@
 namespace Microsoft.SCIM
 {
     using System.Collections.Generic;
-
     public interface IBulkUpdateOperationState : IBulkOperationState<IPatch>
     {
         IReadOnlyCollection<IBulkCreationOperationContext> Dependencies { get; }
